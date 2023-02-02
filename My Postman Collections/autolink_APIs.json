@@ -1,0 +1,1346 @@
+{
+	"info": {
+		"_postman_id": "b8bf66be-8e25-4c7a-b3e4-c05998dec7cf",
+		"name": "Autolink APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login/Signup",
+			"item": [
+				{
+					"name": "Signup API",
+					"_postman_id": "00c2d52d-fdac-4c58-aad0-93a6006f1b25",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Test Name\",\r\n    \"email\": \"alphaf2@gmail.cli2\",\r\n    \"phone\":\"0702109810\",\r\n    \"password\":\"12345\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Localhost}}/signup_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Reset Password",
+					"_postman_id": "7655f9d1-5c94-465b-a199-76e15c7cde22",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"cyrilletony98@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Localhost}}/password_reset_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Login API",
+					"_postman_id": "2da114ea-fbb3-4c98-95ae-88605ff7e790",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test@gmail.com\",\r\n    \"password\": \"password\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/login_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Google Login",
+					"_postman_id": "a935061c-dbf2-4753-b9d6-1e8266ae9146",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"scopes\": [\r\n        \"https://www.googleapis.com/auth/userinfo.profile\",\r\n        \"https://www.googleapis.com/auth/userinfo.email\"\r\n    ],\r\n    \"serverAuthCode\": null,\r\n    \"idToken\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImEyOWFiYzE5YmUyN2ZiNDE1MWFhNDMxZTk0ZmEzNjgwYWU0NThkYTUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIyNTA0NDA1NTgxNTgtbzByaDI5OGw3c2NtbGtqM3JqZ280NmtuYnN2M25pNmcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyNTA0NDA1NTgxNTgtcWVnaTZhZXYzbGo5MDMxaHBxMHJlc2ZvcHJjNDR1ZnMuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDg2MTkxNjQ3NDE0ODQxOTk4NDQiLCJlbWFpbCI6Im90dXlhYWx2aW4zM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6ImFsdmluIG90dXlhIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDZKS2E2OWk5NzZYVWlfOENKbk9iM0NJTER3WXlpRVVLcGZBeXh3MWc9czk2LWMiLCJnaXZlbl9uYW1lIjoiYWx2aW4iLCJmYW1pbHlfbmFtZSI6Im90dXlhIiwibG9jYWxlIjoiZW4iLCJpYXQiOjE2NzMzNTg1NzIsImV4cCI6MTY3MzM2MjE3Mn0.D7zgJyQg1DQezt7tVu-Qn7grSNZy7iXFld4NgrJHJSc8UheK2Z0vVwEXWukpnpmOJulUKSgyD1fc89L5ut9PCxK7H-fUROvby2jNwbVaEhvkDbN4Kul19thY0LqvhJD-bOFIJ5TtFJUguNmgCReT85WPdEhgeLvxBp0TERlbopik2lmKs1JNnjVLm1X_HbsCbYvr3LA5t9PDt4bjrUIeheBrcZWpzkQt-3tIrAndH-mEQYMjXLquu7RrkQkwuSs19nQ8fK5RCEP9ArUJK0_LnBUESsglV5bSx0pvfcNxRaEzZ7CjkyRN7VBpuAbr6mgvFguIKfkIVJWjKTTp5OZwEw\",\r\n    \"user\": {\r\n        \"photo\": \"https://lh3.googleusercontent.com/a/AEdFTp6JKa69i976XUi_8CJnOb3CILDwYyiEUKpfAyxw1g=s96-c\",\r\n        \"givenName\": \"alvin\",\r\n        \"familyName\": \"otuya\",\r\n        \"email\": \"otuyaalvin3@gmail.com\",\r\n        \"name\": \"alvin otuya\",\r\n        \"id\": \"108619164741484199844\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/google_auth"
+					},
+					"response": []
+				},
+				{
+					"name": "Google Login Token",
+					"_postman_id": "fb066159-89a7-40bd-97d0-559fe6cc7c49",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"token\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6ImEyOWFiYzE5YmUyN2ZiNDE1MWFhNDMxZTk0ZmEzNjgwYWU0NThkYTUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIyNTA0NDA1NTgxNTgtbzByaDI5OGw3c2NtbGtqM3JqZ280NmtuYnN2M25pNmcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyNTA0NDA1NTgxNTgtcWVnaTZhZXYzbGo5MDMxaHBxMHJlc2ZvcHJjNDR1ZnMuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDg2MTkxNjQ3NDE0ODQxOTk4NDQiLCJlbWFpbCI6Im90dXlhYWx2aW4zM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6ImFsdmluIG90dXlhIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDZKS2E2OWk5NzZYVWlfOENKbk9iM0NJTER3WXlpRVVLcGZBeXh3MWc9czk2LWMiLCJnaXZlbl9uYW1lIjoiYWx2aW4iLCJmYW1pbHlfbmFtZSI6Im90dXlhIiwibG9jYWxlIjoiZW4iLCJpYXQiOjE2NzMzNTg1NzIsImV4cCI6MTY3MzM2MjE3Mn0.D7zgJyQg1DQezt7tVu-Qn7grSNZy7iXFld4NgrJHJSc8UheK2Z0vVwEXWukpnpmOJulUKSgyD1fc89L5ut9PCxK7H-fUROvby2jNwbVaEhvkDbN4Kul19thY0LqvhJD-bOFIJ5TtFJUguNmgCReT85WPdEhgeLvxBp0TERlbopik2lmKs1JNnjVLm1X_HbsCbYvr3LA5t9PDt4bjrUIeheBrcZWpzkQt-3tIrAndH-mEQYMjXLquu7RrkQkwuSs19nQ8fK5RCEP9ArUJK0_LnBUESsglV5bSx0pvfcNxRaEzZ7CjkyRN7VBpuAbr6mgvFguIKfkIVJWjKTTp5OZwEw\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Localhost}}/autolink/API/google_auth_token"
+					},
+					"response": []
+				},
+				{
+					"name": "Facebook Login",
+					"_postman_id": "ec322c26-2158-49af-8636-bb58bf24f7d2",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"token\":\"EABLnHipAhRMBAKYkmb73fMVwOfjhHfh9YaAlAsLHeZAbLk9t9CtHjz1zN9ZBYgHftevdZAIyWiPAS5a7DTvm5ueIM8TZB5xtpkb5ERya19VUB9FfPC5SXh5ygrCU28ZCgsKYKyggMKPdtQoG5EjyKflfZCZAoZCZB8iM9NMImXGxI1sfIJii3jSdb0SL8SGF1Sq5DbtkvLLJZA3R4OwGjGY3a2XPNHZCzbIqq3BWpZAwZBZCTRVcrntk70AWws\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/facebook_Login"
+					},
+					"response": []
+				},
+				{
+					"name": "Merge Accounts",
+					"_postman_id": "6e613ae6-c0bd-4d52-9f2c-697de14ef802",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {},
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"otuyaalvin33@gmail.com\",\r\n    \"login_type\":\"Google\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Localhost}}/autolink/API/merge_accounts"
+					},
+					"response": []
+				},
+				{
+					"name": "Logout API",
+					"_postman_id": "9ebb86bf-76f0-468b-912f-e6a1c9696734",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwiZXhwIjoxNjcyMTYyNDI3fQ.l3g6NgdBbExk77r3NOOb_n2fkuuiG1pkPH22z-YY8Io",
+								"type": "text"
+							}
+						],
+						"url": "{{Auto}}/logout_API"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "bed8d526-7cb3-4b5f-8366-e95610218867"
+		},
+		{
+			"name": "Home Page",
+			"item": [
+				{
+					"name": "Search Data",
+					"_postman_id": "12545ef4-1a88-4ee2-b7e3-f8ef43e0fd90",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{Auto}}/autolink/API/search_data.json"
+					},
+					"response": []
+				},
+				{
+					"name": "Search Data 2",
+					"_postman_id": "a8b1edad-f679-438d-9a03-d6629930f126",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://autolink.co.ke/autolink/API/search_data2.json"
+					},
+					"response": []
+				},
+				{
+					"name": "Search Data 3",
+					"_postman_id": "a22923d4-39cc-406b-b4ab-9f1d73a4c962",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://autolink.co.ke/autolink/API/search_data3.json"
+					},
+					"response": []
+				},
+				{
+					"name": "Main Search API",
+					"_postman_id": "0a551e1d-880a-4fb8-a87e-93ceb765cd48",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"condition\": \"Foreign Used\",\r\n    \"budget\": 30000000,\r\n    \"make\": \"Toyota\",\r\n    \"model\": \"Vanguard\",\r\n    \"category\": \"SUV\",\r\n    \"maximum_count\": 10,\r\n    \"page\": 1\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/main_search_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Dynamic Vehicle Model",
+					"_postman_id": "23fc336c-e601-4427-a3b3-a7f1f3d51556",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"make\": \"Toyota\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/dynamic_vehicle_model"
+					},
+					"response": []
+				},
+				{
+					"name": "Sliders Images API",
+					"_postman_id": "999c5f38-4e02-4018-906f-595f93d3f30c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{Auto}}/autolink/API/slider_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Categories API",
+					"_postman_id": "12356db4-8a99-4381-aa6f-1b0f3f7ab694",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{Auto}}/autolink/API/vehicle_categories_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Top Brands API",
+					"_postman_id": "78e15e31-81b7-40dd-a10c-ee5274b64125",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": "{{Localhost}}/autolink/API/topbrands_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Featured API",
+					"_postman_id": "67d1d1eb-4c58-4323-9ad9-e45c09807b34",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{Auto}}/autolink/API/featured_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Videos API",
+					"_postman_id": "43a5879d-b1dd-4495-9357-44764fffcf66",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{Auto}}/autolink/API/videos_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Payment Packages API",
+					"_postman_id": "b170ff7b-2797-4719-a9c4-2438a8a93456",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\":\"bceeacf5-4738-4592-a63c-6f232e8c77c3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/payment_packages_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Purchase Guide API",
+					"_postman_id": "e45b0384-891b-4446-9ebe-246baa3e11c3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\":\"bceeacf5-4738-4592-a63c-6f232e8c77c3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/purchase_guide_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Premium Dealers",
+					"_postman_id": "154b27b2-0f74-415b-b391-5746c97887bc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiJlY2UzMTg1OS1hYTM1LTQwYTItYTg0Yi1kZjRkZWI0NzNmMDUiLCJleHAiOjE2NjU1NzgwNzN9.cQ-K8aAMF0pfOM3Pei7LP6f5ZFv9pIhEAz83Ug90g58",
+								"type": "text"
+							}
+						],
+						"url": "{{Localhost}}/autolink/API/premium_dealers_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Trending List",
+					"_postman_id": "449a1cc9-fbaa-4d99-a843-6718a8a74186",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_id\":\"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Localhost}}/autolink/API/trending_list_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Google Map API Key",
+					"_postman_id": "7ac85e1a-ff41-4641-835d-42ad6f289429",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{Auto}}/autolink/API/google_api_key.json"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "e4adba11-4a90-4c3f-b749-5c17b2c97ed5"
+		},
+		{
+			"name": "Single View Page",
+			"item": [
+				{
+					"name": "Single View API",
+					"_postman_id": "d8033fdb-cfd8-4e26-b59e-fd350751c494",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\":\"e8eaaf1f-a9dd-4774-af74-8ff21bf76f18\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/vehicle_details_related_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Vehicle Like",
+					"_postman_id": "97f06235-2bed-458c-a7fd-0e8ea4c2deec",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiJkYmU1NTFmYi02MWVjLTQ3ZGMtYWQ0MC1hOGFiMTUxNGYzMmUiLCJlbWFpbCI6Im90dXlhYWx2aW4zM0BnbWFpbC5jb20iLCJuYW1lIjoiTWF0YXNpIiwicGhvbmUiOiIrMjU0NzAwMDAwMCIsIm9yZ19pZCI6NTYsInVzZXJfdHlwZSI6IkRlbGVhciIsImV4cCI6MTY3NTc1NTM3NH0.fwww8W2JSIaqwSJ0Dy4xX3WqW1AZ56LYZzAiWSP3pSs",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\":\"e8eaaf1f-a9dd-4774-af74-8ff21bf76f18\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Localhost}}/autolink/API/like_vehicle_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Chat With Seller API",
+					"_postman_id": "35d3019d-2d5e-45cc-a194-9f51c65632bb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiJiM2M2ODcwNi02OTFjLTRhNmUtOGI5OS02MzY5OTdmYmE4YmIiLCJlbWFpbCI6Im90dXlhYWx2aW4zQGdtYWlsLmNvbSIsIm5hbWUiOiJhbHZpbiBvdHV5YSIsInBob25lIjpudWxsLCJvcmdfaWQiOm51bGwsInVzZXJfdHlwZSI6Ik5vcm1hbCIsImV4cCI6MTY3NTc3NDI5OH0.f35k-GaPMwd2TraVkP1hbtUAoDenes2_mmu8WgEXn-Q",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\":\"bceeacf5-4738-4592-a63c-6f232e8c77c3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/chat_with_seller_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Request Callback API",
+					"_postman_id": "77dd7f5b-361a-4d12-ad21-180593bcbcc7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiJkYmU1NTFmYi02MWVjLTQ3ZGMtYWQ0MC1hOGFiMTUxNGYzMmUiLCJlbWFpbCI6Im90dXlhYWx2aW4zM0BnbWFpbC5jb20iLCJuYW1lIjoiTWF0YXNpIiwicGhvbmUiOiIrMjU0NzAwMDAwMCIsIm9yZ19pZCI6NTYsInVzZXJfdHlwZSI6IkRlbGVhciIsImV4cCI6MTY3NTc1OTY0Mn0.IhdKAG7TpWChINuCItiBlmtZ0H0TQYX_WRMyD2Dx8ek",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\":\"bceeacf5-4738-4592-a63c-6f232e8c77c3\",\r\n    \"name\": \"Mutai Tony\",\r\n    \"phone_number\": \"0702109810\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Localhost}}/autolink/API/request_callback_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Leave Feedback API",
+					"_postman_id": "144cb7a3-870a-4c5d-8142-310d5a58ea82",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiJiM2M2ODcwNi02OTFjLTRhNmUtOGI5OS02MzY5OTdmYmE4YmIiLCJlbWFpbCI6Im90dXlhYWx2aW4zQGdtYWlsLmNvbSIsIm5hbWUiOiJhbHZpbiBvdHV5YSIsInBob25lIjpudWxsLCJvcmdfaWQiOm51bGwsInVzZXJfdHlwZSI6Ik5vcm1hbCIsImV4cCI6MTY3NTc3NDI5OH0.f35k-GaPMwd2TraVkP1hbtUAoDenes2_mmu8WgEXn-Q",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\" : \"bceeacf5-4738-4592-a63c-6f232e8c77c3\",\r\n    \"feedback\" : \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/leave_feedback_API"
+					},
+					"response": []
+				},
+				{
+					"name": "VehicIe Details Related API",
+					"_postman_id": "2e90e672-e252-4e20-829f-0578ffbeb9ed",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\":\"e8eaaf1f-a9dd-4774-af74-8ff21bf76f18\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/vehicle_details_related_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Book Drive Test API",
+					"_postman_id": "ef342d21-05bb-47c0-8810-af3b25e61686",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiIyNzQ3MWEwMi0yZTM5LTQyNjAtYTM2Yy04NTU1MTA4Y2YwOGUiLCJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwibmFtZSI6InRlc3QiLCJwaG9uZSI6IjA3MTk3MjIyOTIiLCJvcmdfaWQiOjIyNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjc1NzY5NjA0fQ.mS1yOuXuXKHXGXnE5d8kSQghQ2aRUdYvVJCRNO44WOo",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\":\"e8eaaf1f-a9dd-4774-af74-8ff21bf76f18\",\r\n    \"name\": \"Mutai Tony\",\r\n    \"phone_number\": \"0702109810\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/book_drive_test_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Make Offer API",
+					"_postman_id": "16daed64-69f1-4e55-9153-ced603d5b9a4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiIyNzQ3MWEwMi0yZTM5LTQyNjAtYTM2Yy04NTU1MTA4Y2YwOGUiLCJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwibmFtZSI6InRlc3QiLCJwaG9uZSI6IjA3MTk3MjIyOTIiLCJvcmdfaWQiOjIyNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjc1NzY5NjA0fQ.mS1yOuXuXKHXGXnE5d8kSQghQ2aRUdYvVJCRNO44WOo",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\":\"e8eaaf1f-a9dd-4774-af74-8ff21bf76f18\",\r\n    \"name\": \"Mutai Tony\",\r\n    \"phone_number\": \"0702109810\",\r\n    \"offer\": 3000000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/make_offer_API"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "f267befb-83c0-4f78-b6bb-81672b6457eb"
+		},
+		{
+			"name": "Add Vehicle",
+			"item": [
+				{
+					"name": "Add Vehicle Steps 1",
+					"_postman_id": "23246666-2192-4fae-8134-176870ecf078",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjczNTQ4MjkwfQ.jJ6lt6SiQyD4rMs_ylIimZvekFxirK43Ug9umlLNo-o",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"step\": 1,\r\n    \"vehicle_id\": \"\",\r\n    \"make\":\"Toyota\",\r\n    \"model\":\"Corolla\",\r\n    \"body_type\":\"STATION WAGON\",\r\n    \"year\":\"2010\",\r\n    \"engine_size\":\"2000\",\r\n    \"fuel_type\":\"Diesel\",\r\n    \"mileage\":\"120000\",\r\n    \"condition\":\"Locally Used\",\r\n    \"series\":\"\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/add_vehicle_steps_API",
+						"description": "StartFragment\n\n\\[{    \"step\": 1,    \"vehicle_id\": \"\",    \"make\":\"\",    \"model\":\"\",    \"body_type\":\"\",    \"year\":\"\",    \"engine_size\":\"\",    \"fuel_type\":\"\",    \"mileage\":\"\",    \"condition\":\"\",    \"series\":\"\"},{    \"step\": 2,    \"vehicle_id\": \"\",    \"wheel_type\":\"\",    \"color\":\"\",    \"location\":\"\",    \"lng\": \"\",    \"lat\": \"\",    \"selling_price\":\"\",    \"price\":\"\",    \"payment_option\":\"\",    \"service_history\":\"\",    \"gear_type\":\"\"},{    \"step\": 3,    \"vehicle_id\": \"\",    \"features\": \\[\\]},{    \"step\": 4,    \"vehicle_id\": \"\",    \"images\": \\[\\]}\\]  \n\nEndFragment"
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle Steps 2",
+					"_postman_id": "7dacf994-bd79-4770-bba3-9ab1c6a844a4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjczNTQ4MjkwfQ.jJ6lt6SiQyD4rMs_ylIimZvekFxirK43Ug9umlLNo-o",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"step\": 2,\r\n    \"vehicle_id\": \"7acd8729-df09-4cf2-81b0-4234c1304242\",\r\n    \"wheel_type\": \"4WD\",\r\n    \"color\": \"Black\",\r\n    \"location\": \"Nairobi, Kenya\",\r\n    \"lng\": \"0.8484\",\r\n    \"lat\": \"-37.7823\",\r\n    \"selling_price\": \"2000000\",\r\n    \"price\": \"Negotiable\",\r\n    \"payment_option\": [\"Cash\", \"Assets Finance\", \"Trade in Option\"],\r\n    \"service_history\": \"No Service History\",\r\n    \"gear_type\": \"Automatic\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/add_vehicle_steps_API",
+						"description": "StartFragment\n\n\\[{    \"step\": 1,    \"vehicle_id\": \"\",    \"make\":\"\",    \"model\":\"\",    \"body_type\":\"\",    \"year\":\"\",    \"engine_size\":\"\",    \"fuel_type\":\"\",    \"mileage\":\"\",    \"condition\":\"\",    \"series\":\"\"},{    \"step\": 2,    \"vehicle_id\": \"\",    \"wheel_type\":\"\",    \"color\":\"\",    \"location\":\"\",    \"lng\": \"\",    \"lat\": \"\",    \"selling_price\":\"\",    \"price\":\"\",    \"payment_option\":\"\",    \"service_history\":\"\",    \"gear_type\":\"\"},{    \"step\": 3,    \"vehicle_id\": \"\",    \"features\": \\[\\]},{    \"step\": 4,    \"vehicle_id\": \"\",    \"images\": \\[\\]}\\]  \n\nEndFragment"
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle Steps 3",
+					"_postman_id": "172fe4c6-79fa-405b-bd0f-e1431a775426",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjczNTQ4MjkwfQ.jJ6lt6SiQyD4rMs_ylIimZvekFxirK43Ug9umlLNo-o",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"step\": 3,\r\n    \"vehicle_id\": \"7acd8729-df09-4cf2-81b0-4234c1304242\",\r\n    \"features\": [\r\n        \"Air Conditioning\",\r\n        \"Jumper Cable\",\r\n        \"Parking sensors/camera\",\r\n        \"Comprehensive tool kit\",\r\n        \"GPS navigators\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/add_vehicle_steps_API",
+						"description": "StartFragment\n\n\\[{    \"step\": 1,    \"vehicle_id\": \"\",    \"make\":\"\",    \"model\":\"\",    \"body_type\":\"\",    \"year\":\"\",    \"engine_size\":\"\",    \"fuel_type\":\"\",    \"mileage\":\"\",    \"condition\":\"\",    \"series\":\"\"},{    \"step\": 2,    \"vehicle_id\": \"\",    \"wheel_type\":\"\",    \"color\":\"\",    \"location\":\"\",    \"lng\": \"\",    \"lat\": \"\",    \"selling_price\":\"\",    \"price\":\"\",    \"payment_option\":\"\",    \"service_history\":\"\",    \"gear_type\":\"\"},{    \"step\": 3,    \"vehicle_id\": \"\",    \"features\": \\[\\]},{    \"step\": 4,    \"vehicle_id\": \"\",    \"images\": \\[\\]}\\]  \n\nEndFragment"
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle Steps 4",
+					"_postman_id": "724c8da6-e322-43fb-b332-07463202cd20",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjczNTQ4MjkwfQ.jJ6lt6SiQyD4rMs_ylIimZvekFxirK43Ug9umlLNo-o",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"step\": 4,\r\n    \"vehicle_id\": \"7acd8729-df09-4cf2-81b0-4234c1304242\",\r\n    \"images\": [\r\n        \"iVBORw0KGgoAAAANSUhEUgAAAUUAAAFFAQAAAABTD8LwAAAEZUlEQVR4nO1aQY6jQAw04sCRJ/CT8DEkkPhY+AlP4MgBxVtVbmAyuyPNcS0lB5RJV4/kttsulzH/5We3D/KD/CB/Rm5mVm316k8b3V/t7GbtZI37hJX2wAMLqZBYX7ba9wfW7dEenT2w2DzbeW1e+FOQVMjBmmWzbu/96PaHDR1OwfhbzVPAxioj0mfajke/jWtDv+IU5tVfeZEHjR29edlgik/61ZqcSMUnvvd+BuSz9ZXnsVrlf0VyAqRyyNDB9n8+vmeb/x+pD6KSTlvp3M4XJER/AaFDea8IGZAKzTocqajUnp35cWekqgBkQsJfyIXIiixf1sN2uo/pY5Lta0RvJiTsrBCktN32yidYjI04BfhQ/0LfMiERkC+rAY+kgUQii5EfVZW75j6lHMhYRxp0PrSnZxlmkkR+nFikPRUSvwI0e1Qu8D7mEFy2noGLPfT1mAsptueBjCuGy8byhd1PuPSOzyTIoEpTYbLggqYbR9LElML49GTIgwmR144tB28cLtvI+JxMjAOJZEyFVFSKRAjJqgy+TgZIGogDIM9NhmSq8DCWdZcUI1rFNZz7pSKkQMpOq11Mli4tSRL5kYdCfuj5kCbrgDQ91PIqUnkfL5aeBokMKNZaMbGTk7Nohdks0n7FZyKkbHfmdHiTLInhylNQctntjM8syEN8iYLREbcLe2r6dWY2UZeYC8n+nUtSjXxRVKr5ZWl+SqXIhqwVnhRV6D4XHJ+LC96VKwkS3sQlq8NidlK6dKrPPJS3rJgESaWVxJbkT1SJd88KVefu6sohOZCbeN/QiZH7EpQPQbqc0mXjZ3xmQQ5hu1gSs3vnIVCQ4hYPj6mQvGxSuvpQjRSQ5LmxYGYXX0qCpKjCdI6lg7Rc3LyIEWixjs4sGdLJkmwIMUw6RJQvpUYdxZUVsyDRbWh2obEFhX9eO/UdXWhKlg0J91HUkzjJzIHmI77Jdqpkd55Pgdyk4gFubOL7kiQtEqJO4YrkJEgXQTdTg9joApJnsFWUBCYamAs5FTslE7FeiU7EpMlVw+6qnQOpnD576Pt0LvYUdhvE4u7fcyBjgCEyDuZEwWhnO6/pU/z2zIYc/RSMzEL9542jlBzevHlIFmS0hZ3M5kPKXjS6KtL3XCYLcgwmK1FFFINcsGNJC+nozp9JkOo71MS3gSRo6kKCjWlgOmSpwEVtEeWbChfkxi95PgmSodnO4VJyijXaW01sWQBuHSwJ8lS6KA6tMVqy0MHmVQ3J174jB5LDWrD04LR91KsiUxYidb8jkQLJDyUIowShSA2NRSMZEUK/mVUapMfEjN2uLiBtdzHANzUmCTIadiaNmNAcHAQW26Ux3+wiC3KkD/m+Q3BaDWunmNWo0b2UvTTIocxpq61MNWMEsASxsMIKMyKNw7LXlQupw2qo8ab5Z0J6dPLhzfPFqIrVzLMhFZ98ywHrwTOWmAOc0vmSDakc4qvGFvBmefMmXuiIeW6bC/m7zwf5QX6QPyL/AAvKWfX1sGt4AAAAAElFTkSuQmCC\",\r\n        \"iVBORw0KGgoAAAANSUhEUgAAAUUAAAFFAQAAAABTD8LwAAAEZUlEQVR4nO1aQY6jQAw04sCRJ/CT8DEkkPhY+AlP4MgBxVtVbmAyuyPNcS0lB5RJV4/kttsulzH/5We3D/KD/CB/Rm5mVm316k8b3V/t7GbtZI37hJX2wAMLqZBYX7ba9wfW7dEenT2w2DzbeW1e+FOQVMjBmmWzbu/96PaHDR1OwfhbzVPAxioj0mfajke/jWtDv+IU5tVfeZEHjR29edlgik/61ZqcSMUnvvd+BuSz9ZXnsVrlf0VyAqRyyNDB9n8+vmeb/x+pD6KSTlvp3M4XJER/AaFDea8IGZAKzTocqajUnp35cWekqgBkQsJfyIXIiixf1sN2uo/pY5Lta0RvJiTsrBCktN32yidYjI04BfhQ/0LfMiERkC+rAY+kgUQii5EfVZW75j6lHMhYRxp0PrSnZxlmkkR+nFikPRUSvwI0e1Qu8D7mEFy2noGLPfT1mAsptueBjCuGy8byhd1PuPSOzyTIoEpTYbLggqYbR9LElML49GTIgwmR144tB28cLtvI+JxMjAOJZEyFVFSKRAjJqgy+TgZIGogDIM9NhmSq8DCWdZcUI1rFNZz7pSKkQMpOq11Mli4tSRL5kYdCfuj5kCbrgDQ91PIqUnkfL5aeBokMKNZaMbGTk7Nohdks0n7FZyKkbHfmdHiTLInhylNQctntjM8syEN8iYLREbcLe2r6dWY2UZeYC8n+nUtSjXxRVKr5ZWl+SqXIhqwVnhRV6D4XHJ+LC96VKwkS3sQlq8NidlK6dKrPPJS3rJgESaWVxJbkT1SJd88KVefu6sohOZCbeN/QiZH7EpQPQbqc0mXjZ3xmQQ5hu1gSs3vnIVCQ4hYPj6mQvGxSuvpQjRSQ5LmxYGYXX0qCpKjCdI6lg7Rc3LyIEWixjs4sGdLJkmwIMUw6RJQvpUYdxZUVsyDRbWh2obEFhX9eO/UdXWhKlg0J91HUkzjJzIHmI77Jdqpkd55Pgdyk4gFubOL7kiQtEqJO4YrkJEgXQTdTg9joApJnsFWUBCYamAs5FTslE7FeiU7EpMlVw+6qnQOpnD576Pt0LvYUdhvE4u7fcyBjgCEyDuZEwWhnO6/pU/z2zIYc/RSMzEL9542jlBzevHlIFmS0hZ3M5kPKXjS6KtL3XCYLcgwmK1FFFINcsGNJC+nozp9JkOo71MS3gSRo6kKCjWlgOmSpwEVtEeWbChfkxi95PgmSodnO4VJyijXaW01sWQBuHSwJ8lS6KA6tMVqy0MHmVQ3J174jB5LDWrD04LR91KsiUxYidb8jkQLJDyUIowShSA2NRSMZEUK/mVUapMfEjN2uLiBtdzHANzUmCTIadiaNmNAcHAQW26Ux3+wiC3KkD/m+Q3BaDWunmNWo0b2UvTTIocxpq61MNWMEsASxsMIKMyKNw7LXlQupw2qo8ab5Z0J6dPLhzfPFqIrVzLMhFZ98ywHrwTOWmAOc0vmSDakc4qvGFvBmefMmXuiIeW6bC/m7zwf5QX6QPyL/AAvKWfX1sGt4AAAAAElFTkSuQmCC\"\r\n    ]\r\n\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/add_vehicle_steps_API",
+						"description": "StartFragment\n\n\\[{    \"step\": 1,    \"vehicle_id\": \"\",    \"make\":\"\",    \"model\":\"\",    \"body_type\":\"\",    \"year\":\"\",    \"engine_size\":\"\",    \"fuel_type\":\"\",    \"mileage\":\"\",    \"condition\":\"\",    \"series\":\"\"},{    \"step\": 2,    \"vehicle_id\": \"\",    \"wheel_type\":\"\",    \"color\":\"\",    \"location\":\"\",    \"lng\": \"\",    \"lat\": \"\",    \"selling_price\":\"\",    \"price\":\"\",    \"payment_option\":\"\",    \"service_history\":\"\",    \"gear_type\":\"\"},{    \"step\": 3,    \"vehicle_id\": \"\",    \"features\": \\[\\]},{    \"step\": 4,    \"vehicle_id\": \"\",    \"images\": \\[\\]}\\]  \n\nEndFragment"
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle Complete",
+					"_postman_id": "a48ddc05-bd2b-4d18-ba23-18f4cfb3a81e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjczNTQ4MjkwfQ.jJ6lt6SiQyD4rMs_ylIimZvekFxirK43Ug9umlLNo-o",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\": \"7acd8729-df09-4cf2-81b0-4234c1304242\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/add_vehicle_complete_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle Step 1 Details",
+					"_postman_id": "2fb82b36-56d6-4c7e-a2d0-957026b3a9b4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/add_vehicle_step1.json"
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle Step 2 Details",
+					"_postman_id": "75f8ec11-dca2-4f76-bd8a-200fa4d2d0c2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/add_vehicle_step2.json"
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle Step 3 Details",
+					"_postman_id": "27da62b7-021d-4744-9062-f657f77c1fc0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/add_vehicle_step3.json"
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle Step 4 Details",
+					"_postman_id": "f55bb50f-b3bd-4d84-97cf-1c7f3ea3cf54",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\": \"1a464b9e-360e-42d0-9481-fc8319b51092\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/add_vehicle_step4.json"
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle Model Update",
+					"_postman_id": "363c585e-2dd6-43ac-be67-46382151e0e9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"make\": \"Audi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/update_model_API"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "3d6e6c27-09fe-49dc-84d5-0455d47df904"
+		},
+		{
+			"name": "Dealer Dashboard",
+			"item": [
+				{
+					"name": "Dealer Dashboard",
+					"_postman_id": "2e1dff22-1ef4-4839-960d-45260f3f1b48",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjcyNDIxMTQ2fQ.OYIQS-VFuTKsAYk3DakAJa--6ZJJU12I5cqtxoijmI0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/dashboard_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Dealer Ads",
+					"_postman_id": "17a1abd7-f636-44b5-a379-31c71402e084",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiJkYTMzYzY0OS05MTY3LTQ3MjUtOTg0ZC0wZWYwZDMwZTg3MjgiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjc1MjI4MDc0fQ.UkO5M4TbUU1ZqUJkJPFc-QZTknmpYu1tvAu1HPWlqMA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"min\": 0,\r\n    \"max\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Localhost}}/autolink/API/dealer_ads_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Dealer Drafts",
+					"_postman_id": "cb238761-4010-4452-9c01-5f210f4b7754",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjcyNDIyNjE0fQ.cCLYbQjMKexy0Y4P4rEkti20ZBTAF_CX2vTn5w0NWMc",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/my_drafts_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Vehicle",
+					"_postman_id": "36c1bb11-fb87-4d47-8046-15699a978f27",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjcyOTI5Mzg2fQ.hawmuCvGi5SyI0pfyO5rl07sVq6v_bxQ45mhXNwSp5c",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\": \"4bb2058c-0a21-4438-a2c8-f486271ce921\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/delete_car_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Mark Booked",
+					"_postman_id": "08384148-c27b-46d6-83a7-22f8235a86cb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiJkYTMzYzY0OS05MTY3LTQ3MjUtOTg0ZC0wZWYwZDMwZTg3MjgiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjc1MjQxOTgxfQ.6PEYr86dsPk_kG8dJ4sAZPqiSmHe6iddQdUGq7O7U7w",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"vehicle_id\": \"29b574a8-79b7-43df-9766-1f4a44855c98\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/mark_booked_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Mark Sold",
+					"_postman_id": "60e6cf56-9358-435c-8764-76513047417f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiJkYTMzYzY0OS05MTY3LTQ3MjUtOTg0ZC0wZWYwZDMwZTg3MjgiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjc1MjQxOTgxfQ.6PEYr86dsPk_kG8dJ4sAZPqiSmHe6iddQdUGq7O7U7w",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\": \"29b574a8-79b7-43df-9766-1f4a44855c98\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/mark_sold_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Dealer Messages",
+					"_postman_id": "1d95c1a2-8aac-4e84-b45f-d6ab7f39d8a1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjcyNDIxMTQ2fQ.OYIQS-VFuTKsAYk3DakAJa--6ZJJU12I5cqtxoijmI0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/my_messages_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Single Draft",
+					"_postman_id": "1125de7c-dd71-4153-acb6-07c923776176",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjcyNDIxMTQ2fQ.OYIQS-VFuTKsAYk3DakAJa--6ZJJU12I5cqtxoijmI0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\": \"fb7cf5ad-6f87-462c-aba5-c28279736122\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/delete_single_draft_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete All Drafts",
+					"_postman_id": "1ec66405-c70e-4887-b6ca-79edec7f77fe",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjcyNDIxMTQ2fQ.OYIQS-VFuTKsAYk3DakAJa--6ZJJU12I5cqtxoijmI0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/delete_all_drafts_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Check If Boostable",
+					"_postman_id": "98fe1b80-668d-40f3-9f89-3c82fb5b3012",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjcyNDIxMTQ2fQ.OYIQS-VFuTKsAYk3DakAJa--6ZJJU12I5cqtxoijmI0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/check_boosted_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Boost Vehicle",
+					"_postman_id": "3d8e1d1a-2891-4f64-aa34-d690c237f18e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjcyNDIxMTQ2fQ.OYIQS-VFuTKsAYk3DakAJa--6ZJJU12I5cqtxoijmI0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\": \"9fc5375d-9ad4-4d74-9d82-7a9f3d5b8871\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/boost_car_API"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "b2412ee2-be93-434b-89ec-2e34d7bd4d5c"
+		},
+		{
+			"name": "Payments",
+			"item": [],
+			"_postman_id": "14f690a9-208f-45fe-a257-8a79ee1bc7e7"
+		},
+		{
+			"name": "Dealers View",
+			"item": [
+				{
+					"name": "All Dealers",
+					"_postman_id": "7740d4e9-b0c7-4b0c-a2b5-c918f95c12bc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{Auto}}/autolink/API/all_dealers_API"
+					},
+					"response": []
+				},
+				{
+					"name": "Dealers Single View",
+					"_postman_id": "fb351ef6-0a9c-4a07-8dd3-fa38cd5264bc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"org_id\": \"014a73b1-559a-4406-918b-7b22cd165e18\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/single_dealers_API"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "4e9bcb27-c512-46f8-8ff7-1da272bfcded"
+		}
+	],
+	"variable": [
+		{
+			"id": "4c8064a7-836d-4e83-af8a-bc4069aa7c4a",
+			"key": "Live",
+			"value": "https://autolink2.hermit.co.ke",
+			"type": "string"
+		},
+		{
+			"id": "3705ba16-edab-421b-a09d-460bfea97e06",
+			"key": "Localhost",
+			"value": "http://localhost:5000",
+			"type": "string"
+		},
+		{
+			"id": "a0d9ea97-900d-48ab-b6df-89da025c3841",
+			"key": "Auto",
+			"value": "https://autolink.co.ke",
+			"type": "string"
+		}
+	]
+}
