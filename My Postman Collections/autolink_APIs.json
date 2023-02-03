@@ -10,7 +10,7 @@
 			"item": [
 				{
 					"name": "Signup API",
-					"_postman_id": "00c2d52d-fdac-4c58-aad0-93a6006f1b25",
+					"id": "00c2d52d-fdac-4c58-aad0-93a6006f1b25",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -32,7 +32,7 @@
 				},
 				{
 					"name": "Reset Password",
-					"_postman_id": "7655f9d1-5c94-465b-a199-76e15c7cde22",
+					"id": "7655f9d1-5c94-465b-a199-76e15c7cde22",
 					"protocolProfileBehavior": {
 						"disabledSystemHeaders": {},
 						"disableBodyPruning": true
@@ -55,7 +55,7 @@
 				},
 				{
 					"name": "Login API",
-					"_postman_id": "2da114ea-fbb3-4c98-95ae-88605ff7e790",
+					"id": "2da114ea-fbb3-4c98-95ae-88605ff7e790",
 					"protocolProfileBehavior": {
 						"disabledSystemHeaders": {},
 						"disableBodyPruning": true
@@ -85,7 +85,7 @@
 				},
 				{
 					"name": "Google Login",
-					"_postman_id": "a935061c-dbf2-4753-b9d6-1e8266ae9146",
+					"id": "a935061c-dbf2-4753-b9d6-1e8266ae9146",
 					"protocolProfileBehavior": {
 						"disabledSystemHeaders": {},
 						"disableBodyPruning": true
@@ -115,7 +115,7 @@
 				},
 				{
 					"name": "Google Login Token",
-					"_postman_id": "fb066159-89a7-40bd-97d0-559fe6cc7c49",
+					"id": "fb066159-89a7-40bd-97d0-559fe6cc7c49",
 					"protocolProfileBehavior": {
 						"disabledSystemHeaders": {},
 						"disableBodyPruning": true
@@ -145,7 +145,7 @@
 				},
 				{
 					"name": "Facebook Login",
-					"_postman_id": "ec322c26-2158-49af-8636-bb58bf24f7d2",
+					"id": "ec322c26-2158-49af-8636-bb58bf24f7d2",
 					"protocolProfileBehavior": {
 						"disabledSystemHeaders": {},
 						"disableBodyPruning": true
@@ -175,7 +175,7 @@
 				},
 				{
 					"name": "Merge Accounts",
-					"_postman_id": "6e613ae6-c0bd-4d52-9f2c-697de14ef802",
+					"id": "6e613ae6-c0bd-4d52-9f2c-697de14ef802",
 					"protocolProfileBehavior": {
 						"disabledSystemHeaders": {},
 						"disableBodyPruning": true
@@ -205,7 +205,7 @@
 				},
 				{
 					"name": "Logout API",
-					"_postman_id": "9ebb86bf-76f0-468b-912f-e6a1c9696734",
+					"id": "9ebb86bf-76f0-468b-912f-e6a1c9696734",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -223,14 +223,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "bed8d526-7cb3-4b5f-8366-e95610218867"
+			"id": "bed8d526-7cb3-4b5f-8366-e95610218867"
 		},
 		{
 			"name": "Home Page",
 			"item": [
 				{
 					"name": "Search Data",
-					"_postman_id": "12545ef4-1a88-4ee2-b7e3-f8ef43e0fd90",
+					"id": "12545ef4-1a88-4ee2-b7e3-f8ef43e0fd90",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -243,7 +243,7 @@
 				},
 				{
 					"name": "Search Data 2",
-					"_postman_id": "a8b1edad-f679-438d-9a03-d6629930f126",
+					"id": "a8b1edad-f679-438d-9a03-d6629930f126",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -256,7 +256,7 @@
 				},
 				{
 					"name": "Search Data 3",
-					"_postman_id": "a22923d4-39cc-406b-b4ab-9f1d73a4c962",
+					"id": "a22923d4-39cc-406b-b4ab-9f1d73a4c962",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -269,7 +269,7 @@
 				},
 				{
 					"name": "Main Search API",
-					"_postman_id": "0a551e1d-880a-4fb8-a87e-93ceb765cd48",
+					"id": "0a551e1d-880a-4fb8-a87e-93ceb765cd48",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -291,7 +291,7 @@
 				},
 				{
 					"name": "Dynamic Vehicle Model",
-					"_postman_id": "23fc336c-e601-4427-a3b3-a7f1f3d51556",
+					"id": "23fc336c-e601-4427-a3b3-a7f1f3d51556",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -313,7 +313,7 @@
 				},
 				{
 					"name": "Sliders Images API",
-					"_postman_id": "999c5f38-4e02-4018-906f-595f93d3f30c",
+					"id": "999c5f38-4e02-4018-906f-595f93d3f30c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -326,7 +326,7 @@
 				},
 				{
 					"name": "Categories API",
-					"_postman_id": "12356db4-8a99-4381-aa6f-1b0f3f7ab694",
+					"id": "12356db4-8a99-4381-aa6f-1b0f3f7ab694",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -339,7 +339,7 @@
 				},
 				{
 					"name": "Top Brands API",
-					"_postman_id": "78e15e31-81b7-40dd-a10c-ee5274b64125",
+					"id": "78e15e31-81b7-40dd-a10c-ee5274b64125",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -348,10 +348,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {}
-							}
+							"raw": ""
 						},
 						"url": "{{Localhost}}/autolink/API/topbrands_API"
 					},
@@ -359,7 +356,7 @@
 				},
 				{
 					"name": "Featured API",
-					"_postman_id": "67d1d1eb-4c58-4323-9ad9-e45c09807b34",
+					"id": "67d1d1eb-4c58-4323-9ad9-e45c09807b34",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -372,7 +369,7 @@
 				},
 				{
 					"name": "Videos API",
-					"_postman_id": "43a5879d-b1dd-4495-9357-44764fffcf66",
+					"id": "43a5879d-b1dd-4495-9357-44764fffcf66",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -385,7 +382,7 @@
 				},
 				{
 					"name": "Payment Packages API",
-					"_postman_id": "b170ff7b-2797-4719-a9c4-2438a8a93456",
+					"id": "b170ff7b-2797-4719-a9c4-2438a8a93456",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -407,7 +404,7 @@
 				},
 				{
 					"name": "Purchase Guide API",
-					"_postman_id": "e45b0384-891b-4446-9ebe-246baa3e11c3",
+					"id": "e45b0384-891b-4446-9ebe-246baa3e11c3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -429,7 +426,7 @@
 				},
 				{
 					"name": "Premium Dealers",
-					"_postman_id": "154b27b2-0f74-415b-b391-5746c97887bc",
+					"id": "154b27b2-0f74-415b-b391-5746c97887bc",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -448,7 +445,7 @@
 				},
 				{
 					"name": "Trending List",
-					"_postman_id": "449a1cc9-fbaa-4d99-a843-6718a8a74186",
+					"id": "449a1cc9-fbaa-4d99-a843-6718a8a74186",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -470,7 +467,7 @@
 				},
 				{
 					"name": "Google Map API Key",
-					"_postman_id": "7ac85e1a-ff41-4641-835d-42ad6f289429",
+					"id": "7ac85e1a-ff41-4641-835d-42ad6f289429",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -482,14 +479,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "e4adba11-4a90-4c3f-b749-5c17b2c97ed5"
+			"id": "e4adba11-4a90-4c3f-b749-5c17b2c97ed5"
 		},
 		{
 			"name": "Single View Page",
 			"item": [
 				{
 					"name": "Single View API",
-					"_postman_id": "d8033fdb-cfd8-4e26-b59e-fd350751c494",
+					"id": "d8033fdb-cfd8-4e26-b59e-fd350751c494",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -511,7 +508,7 @@
 				},
 				{
 					"name": "Vehicle Like",
-					"_postman_id": "97f06235-2bed-458c-a7fd-0e8ea4c2deec",
+					"id": "97f06235-2bed-458c-a7fd-0e8ea4c2deec",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -539,7 +536,7 @@
 				},
 				{
 					"name": "Chat With Seller API",
-					"_postman_id": "35d3019d-2d5e-45cc-a194-9f51c65632bb",
+					"id": "35d3019d-2d5e-45cc-a194-9f51c65632bb",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -567,7 +564,7 @@
 				},
 				{
 					"name": "Request Callback API",
-					"_postman_id": "77dd7f5b-361a-4d12-ad21-180593bcbcc7",
+					"id": "77dd7f5b-361a-4d12-ad21-180593bcbcc7",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -589,13 +586,13 @@
 								}
 							}
 						},
-						"url": "{{Localhost}}/autolink/API/request_callback_API"
+						"url": "{{Auto}}/autolink/API/request_callback_API"
 					},
 					"response": []
 				},
 				{
 					"name": "Leave Feedback API",
-					"_postman_id": "144cb7a3-870a-4c5d-8142-310d5a58ea82",
+					"id": "144cb7a3-870a-4c5d-8142-310d5a58ea82",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -623,7 +620,7 @@
 				},
 				{
 					"name": "VehicIe Details Related API",
-					"_postman_id": "2e90e672-e252-4e20-829f-0578ffbeb9ed",
+					"id": "2e90e672-e252-4e20-829f-0578ffbeb9ed",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -645,7 +642,7 @@
 				},
 				{
 					"name": "Book Drive Test API",
-					"_postman_id": "ef342d21-05bb-47c0-8810-af3b25e61686",
+					"id": "ef342d21-05bb-47c0-8810-af3b25e61686",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -673,7 +670,7 @@
 				},
 				{
 					"name": "Make Offer API",
-					"_postman_id": "16daed64-69f1-4e55-9153-ced603d5b9a4",
+					"id": "16daed64-69f1-4e55-9153-ced603d5b9a4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -700,14 +697,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "f267befb-83c0-4f78-b6bb-81672b6457eb"
+			"id": "f267befb-83c0-4f78-b6bb-81672b6457eb"
 		},
 		{
 			"name": "Add Vehicle",
 			"item": [
 				{
 					"name": "Add Vehicle Steps 1",
-					"_postman_id": "23246666-2192-4fae-8134-176870ecf078",
+					"id": "23246666-2192-4fae-8134-176870ecf078",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -736,7 +733,7 @@
 				},
 				{
 					"name": "Add Vehicle Steps 2",
-					"_postman_id": "7dacf994-bd79-4770-bba3-9ab1c6a844a4",
+					"id": "7dacf994-bd79-4770-bba3-9ab1c6a844a4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -765,7 +762,7 @@
 				},
 				{
 					"name": "Add Vehicle Steps 3",
-					"_postman_id": "172fe4c6-79fa-405b-bd0f-e1431a775426",
+					"id": "172fe4c6-79fa-405b-bd0f-e1431a775426",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -794,7 +791,7 @@
 				},
 				{
 					"name": "Add Vehicle Steps 4",
-					"_postman_id": "724c8da6-e322-43fb-b332-07463202cd20",
+					"id": "724c8da6-e322-43fb-b332-07463202cd20",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -823,7 +820,7 @@
 				},
 				{
 					"name": "Add Vehicle Complete",
-					"_postman_id": "a48ddc05-bd2b-4d18-ba23-18f4cfb3a81e",
+					"id": "a48ddc05-bd2b-4d18-ba23-18f4cfb3a81e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -851,7 +848,7 @@
 				},
 				{
 					"name": "Add Vehicle Step 1 Details",
-					"_postman_id": "2fb82b36-56d6-4c7e-a2d0-957026b3a9b4",
+					"id": "2fb82b36-56d6-4c7e-a2d0-957026b3a9b4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -873,7 +870,7 @@
 				},
 				{
 					"name": "Add Vehicle Step 2 Details",
-					"_postman_id": "75f8ec11-dca2-4f76-bd8a-200fa4d2d0c2",
+					"id": "75f8ec11-dca2-4f76-bd8a-200fa4d2d0c2",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -895,7 +892,7 @@
 				},
 				{
 					"name": "Add Vehicle Step 3 Details",
-					"_postman_id": "27da62b7-021d-4744-9062-f657f77c1fc0",
+					"id": "27da62b7-021d-4744-9062-f657f77c1fc0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -917,7 +914,7 @@
 				},
 				{
 					"name": "Add Vehicle Step 4 Details",
-					"_postman_id": "f55bb50f-b3bd-4d84-97cf-1c7f3ea3cf54",
+					"id": "f55bb50f-b3bd-4d84-97cf-1c7f3ea3cf54",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -939,7 +936,7 @@
 				},
 				{
 					"name": "Add Vehicle Model Update",
-					"_postman_id": "363c585e-2dd6-43ac-be67-46382151e0e9",
+					"id": "363c585e-2dd6-43ac-be67-46382151e0e9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -960,14 +957,14 @@
 					"response": []
 				}
 			],
-			"_postman_id": "3d6e6c27-09fe-49dc-84d5-0455d47df904"
+			"id": "3d6e6c27-09fe-49dc-84d5-0455d47df904"
 		},
 		{
 			"name": "Dealer Dashboard",
 			"item": [
 				{
 					"name": "Dealer Dashboard",
-					"_postman_id": "2e1dff22-1ef4-4839-960d-45260f3f1b48",
+					"id": "2e1dff22-1ef4-4839-960d-45260f3f1b48",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -995,7 +992,7 @@
 				},
 				{
 					"name": "Dealer Ads",
-					"_postman_id": "17a1abd7-f636-44b5-a379-31c71402e084",
+					"id": "17a1abd7-f636-44b5-a379-31c71402e084",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1023,7 +1020,7 @@
 				},
 				{
 					"name": "Dealer Drafts",
-					"_postman_id": "cb238761-4010-4452-9c01-5f210f4b7754",
+					"id": "cb238761-4010-4452-9c01-5f210f4b7754",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1051,7 +1048,7 @@
 				},
 				{
 					"name": "Delete Vehicle",
-					"_postman_id": "36c1bb11-fb87-4d47-8046-15699a978f27",
+					"id": "36c1bb11-fb87-4d47-8046-15699a978f27",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1079,7 +1076,7 @@
 				},
 				{
 					"name": "Mark Booked",
-					"_postman_id": "08384148-c27b-46d6-83a7-22f8235a86cb",
+					"id": "08384148-c27b-46d6-83a7-22f8235a86cb",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1107,7 +1104,7 @@
 				},
 				{
 					"name": "Mark Sold",
-					"_postman_id": "60e6cf56-9358-435c-8764-76513047417f",
+					"id": "60e6cf56-9358-435c-8764-76513047417f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1135,7 +1132,7 @@
 				},
 				{
 					"name": "Dealer Messages",
-					"_postman_id": "1d95c1a2-8aac-4e84-b45f-d6ab7f39d8a1",
+					"id": "1d95c1a2-8aac-4e84-b45f-d6ab7f39d8a1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1163,7 +1160,7 @@
 				},
 				{
 					"name": "Delete Single Draft",
-					"_postman_id": "1125de7c-dd71-4153-acb6-07c923776176",
+					"id": "1125de7c-dd71-4153-acb6-07c923776176",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1191,7 +1188,7 @@
 				},
 				{
 					"name": "Delete All Drafts",
-					"_postman_id": "1ec66405-c70e-4887-b6ca-79edec7f77fe",
+					"id": "1ec66405-c70e-4887-b6ca-79edec7f77fe",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1219,7 +1216,7 @@
 				},
 				{
 					"name": "Check If Boostable",
-					"_postman_id": "98fe1b80-668d-40f3-9f89-3c82fb5b3012",
+					"id": "98fe1b80-668d-40f3-9f89-3c82fb5b3012",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1247,7 +1244,7 @@
 				},
 				{
 					"name": "Boost Vehicle",
-					"_postman_id": "3d8e1d1a-2891-4f64-aa34-d690c237f18e",
+					"id": "3d8e1d1a-2891-4f64-aa34-d690c237f18e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1274,19 +1271,19 @@
 					"response": []
 				}
 			],
-			"_postman_id": "b2412ee2-be93-434b-89ec-2e34d7bd4d5c"
+			"id": "b2412ee2-be93-434b-89ec-2e34d7bd4d5c"
 		},
 		{
 			"name": "Payments",
 			"item": [],
-			"_postman_id": "14f690a9-208f-45fe-a257-8a79ee1bc7e7"
+			"id": "14f690a9-208f-45fe-a257-8a79ee1bc7e7"
 		},
 		{
 			"name": "Dealers View",
 			"item": [
 				{
 					"name": "All Dealers",
-					"_postman_id": "7740d4e9-b0c7-4b0c-a2b5-c918f95c12bc",
+					"id": "7740d4e9-b0c7-4b0c-a2b5-c918f95c12bc",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1299,7 +1296,7 @@
 				},
 				{
 					"name": "Dealers Single View",
-					"_postman_id": "fb351ef6-0a9c-4a07-8dd3-fa38cd5264bc",
+					"id": "fb351ef6-0a9c-4a07-8dd3-fa38cd5264bc",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1320,27 +1317,24 @@
 					"response": []
 				}
 			],
-			"_postman_id": "4e9bcb27-c512-46f8-8ff7-1da272bfcded"
+			"id": "4e9bcb27-c512-46f8-8ff7-1da272bfcded"
 		}
 	],
 	"variable": [
 		{
-			"id": "4c8064a7-836d-4e83-af8a-bc4069aa7c4a",
+			"id": "9353d0d8-bd54-482f-9cfa-ea91c4ba0975",
 			"key": "Live",
-			"value": "https://autolink2.hermit.co.ke",
-			"type": "string"
+			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "3705ba16-edab-421b-a09d-460bfea97e06",
+			"id": "00111169-11da-4d89-9f79-3f8ef38c83a8",
 			"key": "Localhost",
-			"value": "http://localhost:5000",
-			"type": "string"
+			"value": "http://localhost:5000"
 		},
 		{
-			"id": "a0d9ea97-900d-48ab-b6df-89da025c3841",
+			"id": "9d167b84-a0b4-40f4-91c3-15d0cd55beee",
 			"key": "Auto",
-			"value": "https://autolink.co.ke",
-			"type": "string"
+			"value": "https://autolink.co.ke"
 		}
 	]
 }
