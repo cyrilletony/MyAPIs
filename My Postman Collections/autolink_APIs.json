@@ -72,7 +72,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"test@gmail.com\",\r\n    \"password\": \"password\"\r\n}\r\n",
+							"raw": "{\r\n    \"email\": \"chromeline@autolink.co.ke\",\r\n    \"password\": \"Password1234\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1322,17 +1322,17 @@
 	],
 	"variable": [
 		{
-			"id": "0153601c-2ed4-4bda-a30e-8a6dd909f447",
+			"id": "8d02d707-98c1-4c9d-8a73-59b239b9cd84",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "5f84d6a3-373b-40fd-beeb-7ff6dad7fbc9",
+			"id": "d6411e99-f90b-40ef-be7c-8db0ff5f8206",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "aac03f76-4b2a-4a2f-affb-90df9a252d7c",
+			"id": "70d03008-81d0-4a10-a168-4cdea9a5b96c",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
