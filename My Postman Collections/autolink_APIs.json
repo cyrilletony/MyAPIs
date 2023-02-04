@@ -444,6 +444,25 @@
 					"response": []
 				},
 				{
+					"name": "Home Test",
+					"id": "1b0d3793-4931-481e-8331-ea130cb5aa68",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiJlY2UzMTg1OS1hYTM1LTQwYTItYTg0Yi1kZjRkZWI0NzNmMDUiLCJleHAiOjE2NjU1NzgwNzN9.cQ-K8aAMF0pfOM3Pei7LP6f5ZFv9pIhEAz83Ug90g58",
+								"type": "text"
+							}
+						],
+						"url": "{{Localhost}}/autolink/API/premium_dealers_API"
+					},
+					"response": []
+				},
+				{
 					"name": "Trending List",
 					"id": "449a1cc9-fbaa-4d99-a843-6718a8a74186",
 					"protocolProfileBehavior": {
@@ -1322,17 +1341,17 @@
 	],
 	"variable": [
 		{
-			"id": "1fcf148b-b460-47a6-84b5-01274b0d6470",
+			"id": "cbab16ac-7d53-49f4-9bbe-308121a2824d",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "75a34bef-c854-4e10-928c-341314328f31",
+			"id": "ce230c10-abb9-4ef4-805f-991fff356deb",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "ecb230b1-6e54-4075-8caf-3e682bd386ee",
+			"id": "be33292a-836b-4370-8224-25469870ed54",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
