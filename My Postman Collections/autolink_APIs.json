@@ -49,7 +49,7 @@
 								}
 							}
 						},
-						"url": "{{Localhost}}/password_reset_API"
+						"url": "{{Auto}}/password_reset_API"
 					},
 					"response": []
 				},
@@ -1341,17 +1341,17 @@
 	],
 	"variable": [
 		{
-			"id": "a3f25146-ba18-4161-8068-be607d22ccfc",
+			"id": "40807858-0623-49f2-a9e7-763edf85eaf7",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "703d058c-8dd1-4422-9e2f-c807eb33918b",
+			"id": "2a30784a-d194-4087-940e-017cd920a5ed",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "b393bbb0-31ee-476f-86f2-f7246d351ee5",
+			"id": "e715d95d-14b7-4fdf-88a5-6ad6866e1fcb",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
