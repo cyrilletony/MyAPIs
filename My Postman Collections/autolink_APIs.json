@@ -1364,7 +1364,7 @@
 			"name": "Mails",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Bulk Mails",
 					"id": "dd26d9c0-122d-4160-b6f1-6078bb77dc4c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -1391,17 +1391,17 @@
 	],
 	"variable": [
 		{
-			"id": "c2fc56d0-4186-494b-9780-1f99355f6173",
+			"id": "007960ac-2663-46f0-b235-8e50992edee7",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "f3e1b686-a175-4a55-a6ff-0e6063d8e2d3",
+			"id": "92e1db3a-84a9-4664-abc2-75f5cc9bd47a",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "d975b55c-2ad9-4667-9c66-0c71008b6912",
+			"id": "ba0dfd30-a72e-4bc0-a164-7a3cf84f9d62",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
