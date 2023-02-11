@@ -296,7 +296,7 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
@@ -1363,17 +1363,17 @@
 	],
 	"variable": [
 		{
-			"id": "0abe7469-e7ac-4ebe-a3c1-b6f4e3050880",
+			"id": "9951cbaa-da9b-4fce-80e7-bb16ba61d11c",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "ad2a7225-c978-46a2-b4d3-0fa6bea73d7f",
+			"id": "42fab9a6-2256-4a41-a471-24f3ae759d46",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "0b0c8b71-ce69-4666-b699-62f8fd1ceac1",
+			"id": "20f84d48-9e5a-4670-8e30-3df0578ad4cf",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
