@@ -290,6 +290,28 @@
 					"response": []
 				},
 				{
+					"name": "Main Search API Copy",
+					"id": "b86d8699-b145-4714-9fef-75a1c40b02e5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"condition\": \"Foreign Used\",\r\n    \"budget\": 30000000,\r\n    \"make\": \"Toyota\",\r\n    \"model\": \"Vanguard\",\r\n    \"category\": \"SUV\",\r\n    \"maximum_count\": 10,\r\n    \"page\": 1\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/autolink/API/main_search_API"
+					},
+					"response": []
+				},
+				{
 					"name": "Dynamic Vehicle Model",
 					"id": "23fc336c-e601-4427-a3b3-a7f1f3d51556",
 					"protocolProfileBehavior": {
@@ -1341,17 +1363,17 @@
 	],
 	"variable": [
 		{
-			"id": "0c936393-ab29-4e98-97ef-39ab78c2d5cc",
+			"id": "c5e7a329-c4d6-4076-a6cb-7750a511e8a1",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "97d07bad-8c28-4d42-b79d-940fc59d9dce",
+			"id": "8926ed1c-40d5-460a-84d7-3d1e38da917b",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "b3149dd1-da5d-488f-ae59-21e146b11b8a",
+			"id": "da789f62-1f3f-464a-96df-c0631e01565f",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
