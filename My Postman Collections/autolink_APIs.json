@@ -1371,7 +1371,17 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Auto}}/send_mails"
 					},
 					"response": []
 				}
@@ -1381,17 +1391,17 @@
 	],
 	"variable": [
 		{
-			"id": "0ef32d47-e947-4e9e-8263-2a361c8570ea",
+			"id": "9428ddb5-0fc9-422c-9230-718467dc2d60",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "01d4192b-614f-4ec6-ba07-5d32919682ba",
+			"id": "b9961b44-3a62-481d-8fca-a22e7d55263c",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "73d1883f-d2f0-4063-af69-3dc528b356ae",
+			"id": "1fd60a52-f5ef-4cc0-bcb5-d207b3d6943c",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
