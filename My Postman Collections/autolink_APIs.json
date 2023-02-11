@@ -1359,21 +1359,26 @@
 				}
 			],
 			"id": "4e9bcb27-c512-46f8-8ff7-1da272bfcded"
+		},
+		{
+			"name": "Mails",
+			"item": [],
+			"id": "5d9b01d4-bc3f-4dd5-ac3b-da07eb7a89dd"
 		}
 	],
 	"variable": [
 		{
-			"id": "c14ebdba-66be-4740-bdf3-149a20013082",
+			"id": "1909d67f-eb97-401b-9689-fad9a2a251b5",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "4965f2e5-daf2-43b8-b3b7-de5d0e3095eb",
+			"id": "40d011a1-4d9c-4460-aea2-c3645d381d3c",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "26e4b2cd-d583-4c21-b50e-b99ac0cfde7c",
+			"id": "76e1b845-1d58-4977-b13b-2665a9e97593",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
