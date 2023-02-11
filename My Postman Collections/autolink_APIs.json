@@ -1391,17 +1391,17 @@
 	],
 	"variable": [
 		{
-			"id": "d469e407-f952-4756-9071-636a5603af59",
+			"id": "8eb53d3d-5455-4705-8447-5240d459adb6",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "9164f018-5f71-4bb0-8a10-7f2abcb4d12e",
+			"id": "1e3a2e6a-65cd-4599-8884-1439eca44227",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "331b34b0-e085-48b0-9204-0e3ad8b6e789",
+			"id": "d116623f-4bd9-4b31-b379-c70efe4398a9",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
