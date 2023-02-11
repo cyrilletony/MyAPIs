@@ -300,7 +300,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"max_year\":2020,\r\n    \"min_year\":2020\r\n}",
+							"raw": "{\r\n    \"condition\": \"Foreign Used\",\r\n    \"budget\": 30000000,\r\n    \"make\": \"Toyota\",\r\n    \"model\": \"Vanguard\",\r\n    \"category\": \"SUV\",\r\n    \"max_year\":2022,\r\n    \"min_year\":2020\r\n    \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1391,17 +1391,17 @@
 	],
 	"variable": [
 		{
-			"id": "12b8a9db-29a6-4433-bad7-c53cf3c60951",
+			"id": "f54d43f4-7ac9-4809-8606-30d53d55882c",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "7746e287-2a1c-43f1-93c2-b03842fcc831",
+			"id": "2f276c7a-3cd6-4e04-afdc-5b87600a49e5",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "c8ba6c3a-f20c-4d0c-96dc-30438e809f4a",
+			"id": "6a52054b-6938-454c-b504-2c2e4401d2cb",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
