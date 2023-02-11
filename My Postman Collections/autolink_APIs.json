@@ -1361,24 +1361,37 @@
 			"id": "4e9bcb27-c512-46f8-8ff7-1da272bfcded"
 		},
 		{
-			"name": "New Folder",
-			"item": [],
+			"name": "Mails",
+			"item": [
+				{
+					"name": "New Request",
+					"id": "dd26d9c0-122d-4160-b6f1-6078bb77dc4c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "5d9b01d4-bc3f-4dd5-ac3b-da07eb7a89dd"
 		}
 	],
 	"variable": [
 		{
-			"id": "1c4d9977-d2bd-498f-a15e-de04597c9c04",
+			"id": "0ef32d47-e947-4e9e-8263-2a361c8570ea",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "20e40133-81bb-4e31-9df6-3118da3255f3",
+			"id": "01d4192b-614f-4ec6-ba07-5d32919682ba",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "08425704-019f-488e-9322-111b78374989",
+			"id": "73d1883f-d2f0-4063-af69-3dc528b356ae",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
