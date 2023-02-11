@@ -19,7 +19,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"Test Name\",\r\n    \"email\": \"alphaf2@gmail.cli2\",\r\n    \"phone\":\"0702109810\",\r\n    \"password\":\"12345\"\r\n}",
+							"raw": "{\r\n    \"name\":\"Test Name\",\r\n    \"email\": \"alphaf2@gmail.commm2\",\r\n    \"phone\":\"0702109810\",\r\n    \"password\":\"12345\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1391,17 +1391,17 @@
 	],
 	"variable": [
 		{
-			"id": "ae6cbfad-070c-4953-b6ea-be9bc2c3e7f5",
+			"id": "6400056c-53b0-4b63-93b8-27b35a35432e",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "6319584c-548c-4c08-9b92-1077ff39c91f",
+			"id": "daa1d0d9-fed4-43e8-a95e-5f0dd1062263",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "f33fbcc0-679a-40f6-a430-ac1c80178069",
+			"id": "c01f0e7b-2e52-4fcc-84ca-9859a2c18fba",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
