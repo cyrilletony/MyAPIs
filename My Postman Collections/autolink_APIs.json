@@ -1402,7 +1402,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"org_id\": \"8784a9ff-6783-4683-95ad-e397042e6e04\"\r\n}",
+							"raw": "{\r\n    \"org_id\": \"1814e2ea-a92a-4a89-89fa-535c13eb6e41\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1447,17 +1447,17 @@
 	],
 	"variable": [
 		{
-			"id": "71c62f04-dad2-438e-bddf-4cd77adfa5c7",
+			"id": "b3da953a-1cde-4778-bfcc-71260c1de48e",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "d5e91b21-4bb0-473b-824c-5b8520f6cc58",
+			"id": "04ede822-6d7c-47db-8dc9-4ac0c6ef8d3f",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "848faca0-c4b4-4412-819c-330b15a7c2da",
+			"id": "ccfcdfd2-386d-4a89-944d-f62b99c6617d",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
