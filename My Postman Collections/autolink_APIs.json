@@ -576,7 +576,7 @@
 					"response": []
 				},
 				{
-					"name": "Vehicle Feedback API",
+					"name": "Vehicle Feedbacks API",
 					"id": "255c43af-b389-484f-a45f-f87431f80c45",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -1419,17 +1419,17 @@
 	],
 	"variable": [
 		{
-			"id": "1a53b058-940e-4a7d-adde-cebb08261f1c",
+			"id": "97939609-c674-4216-ad23-11fa6406cfb4",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "fc60c6e8-3fe7-457c-abba-c2e0239acce0",
+			"id": "f127e7db-5870-4934-99dc-70e466d66184",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "7b7a62fc-8ac7-42de-ae43-be923cf9f15a",
+			"id": "81a03d6f-6d2f-42da-8d72-b6752dd2a1d1",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
