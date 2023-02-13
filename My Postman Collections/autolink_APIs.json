@@ -1412,28 +1412,6 @@
 						"url": "{{Auto}}/autolink/API/single_dealers_API"
 					},
 					"response": []
-				},
-				{
-					"name": "Dealers Vehicle Feedbacks",
-					"id": "60471730-377a-48fa-ac76-101a4e6e5c7d",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"limit\": 3\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{Localhost}}/autolink/API/dealer_feedback_API"
-					},
-					"response": []
 				}
 			],
 			"id": "4e9bcb27-c512-46f8-8ff7-1da272bfcded"
@@ -1469,17 +1447,17 @@
 	],
 	"variable": [
 		{
-			"id": "b5d0020a-9363-4512-9ed5-fb881ae40495",
+			"id": "c8acfd74-a203-46fe-b8d8-17b1bc33c155",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "f32452d5-1bbb-4362-88d8-00a5f7854336",
+			"id": "df77591f-ecd7-43b8-b04c-919c8c21e2f3",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "47a0e956-5dd3-46b3-8bb6-d3a738caae2b",
+			"id": "e6c22dc3-f0a9-4545-b7fc-395a54c25b7e",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
