@@ -278,14 +278,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"max_year\":2020,\r\n    \"min_year\":2017\r\n}",
+							"raw": "{\r\n    \"max_year\":2020,\r\n    \"min_year\":2020\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{Localhost}}/autolink/API/main_search_API"
+						"url": "{{Auto}}/autolink/API/main_search_API"
 					},
 					"response": []
 				},
@@ -1447,17 +1447,17 @@
 	],
 	"variable": [
 		{
-			"id": "c8fe7cb7-4078-4c82-8090-55130fe5e33a",
+			"id": "9ba91671-f305-40fc-bc21-c41b663b0119",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "4858738d-79da-4d45-a6f2-fadb9a8acb51",
+			"id": "3c92b163-7917-4885-a83a-f68d5d003c45",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "c57b2aed-d60d-4135-b63c-9784cb29938d",
+			"id": "bd9d48d6-fede-46cf-a57d-7c44ad29c8e4",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
