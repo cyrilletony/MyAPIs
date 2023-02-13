@@ -576,6 +576,34 @@
 					"response": []
 				},
 				{
+					"name": "Vehicle Feedback API",
+					"id": "255c43af-b389-484f-a45f-f87431f80c45",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiJkYmU1NTFmYi02MWVjLTQ3ZGMtYWQ0MC1hOGFiMTUxNGYzMmUiLCJlbWFpbCI6Im90dXlhYWx2aW4zM0BnbWFpbC5jb20iLCJuYW1lIjoiTWF0YXNpIiwicGhvbmUiOiIrMjU0NzAwMDAwMCIsIm9yZ19pZCI6NTYsInVzZXJfdHlwZSI6IkRlbGVhciIsImV4cCI6MTY3NTc1NTM3NH0.fwww8W2JSIaqwSJ0Dy4xX3WqW1AZ56LYZzAiWSP3pSs",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\":\"e8eaaf1f-a9dd-4774-af74-8ff21bf76f18\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Localhost}}/autolink/API/like_vehicle_API"
+					},
+					"response": []
+				},
+				{
 					"name": "Chat With Seller API",
 					"id": "35d3019d-2d5e-45cc-a194-9f51c65632bb",
 					"protocolProfileBehavior": {
@@ -1391,17 +1419,17 @@
 	],
 	"variable": [
 		{
-			"id": "d2fb6ff1-3c8b-43b1-a4a9-c1ba8aa60418",
+			"id": "01f0142f-d6bc-4c23-94e2-3384dc8d89d6",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "c7a8ad9c-4563-41f4-8ddc-0074517f0de8",
+			"id": "4adfcc1b-dde9-4026-a720-914c856fb475",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "e0430a92-58f7-44fe-8769-e68437e2b1b9",
+			"id": "fabd0cee-43ee-481e-92a2-0255d3e93b60",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
