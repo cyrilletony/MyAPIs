@@ -72,14 +72,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"alphaf2@gmail.commmm\",\r\n    \"password\": \"12345\"\r\n}\r\n",
+							"raw": "{\r\n    \"email\": \"chromeline@autolink.co.ke\",\r\n    \"password\": \"Password1234\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{Auto}}/login_API"
+						"url": "{{Loaclhost}}/login_API"
 					},
 					"response": []
 				},
@@ -1447,17 +1447,17 @@
 	],
 	"variable": [
 		{
-			"id": "a97205df-5fa0-4af5-b766-d64c4ef5ac9e",
+			"id": "d70296c6-cbde-4409-b0f0-d534b118fe6c",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "bbc9f431-0cfd-429a-bc36-0fb9a96b18a5",
+			"id": "92444626-f18a-4a91-818a-298d7e35a350",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "add8471b-fc72-44b3-87aa-fb599c1715cf",
+			"id": "60131ed5-2994-4a79-a574-dfc7c762b7c4",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
