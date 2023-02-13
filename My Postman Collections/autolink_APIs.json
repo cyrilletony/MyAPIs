@@ -1387,7 +1387,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{Localhost}}/autolink/API/all_dealers_API"
+						"url": "{{Auto}}/autolink/API/all_dealers_API"
 					},
 					"response": []
 				},
@@ -1447,17 +1447,17 @@
 	],
 	"variable": [
 		{
-			"id": "986708d7-9c94-40b2-866f-b5428e140693",
+			"id": "71c62f04-dad2-438e-bddf-4cd77adfa5c7",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "49d4ce20-3aec-40dc-a550-2c1a6e1b183c",
+			"id": "d5e91b21-4bb0-473b-824c-5b8520f6cc58",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "deb508b1-9607-4539-9eef-2a8f685429ac",
+			"id": "848faca0-c4b4-4412-819c-330b15a7c2da",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
