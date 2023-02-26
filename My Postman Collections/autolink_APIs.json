@@ -1378,7 +1378,7 @@
 						"header": [
 							{
 								"key": "x-access-token",
-								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjcyNDIxMTQ2fQ.OYIQS-VFuTKsAYk3DakAJa--6ZJJU12I5cqtxoijmI0",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI1YTZhZjNkOC0xMjAxLTQ3OTYtYjZmOC01MjVjMGFhODYxYTQiLCJlbWFpbCI6ImNocm9tZWxpbmVAYXV0b2xpbmsuY28ua2UiLCJuYW1lIjoiQ2hyb21lbGluZSAgQXV0byBEZWFsZXJzIiwicGhvbmUiOiIwNzIwMjE0NDU0Iiwib3JnX2lkIjo0MSwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjc4MDUxOTkyfQ.mYUbgi_Y7JWyqkNg44q22Lx97_duEC4iCIwm3ZRzoqE",
 								"type": "text"
 							}
 						],
@@ -1475,17 +1475,17 @@
 	],
 	"variable": [
 		{
-			"id": "69633d72-f586-40cd-823d-b1d1cf1c75ac",
+			"id": "9b59dde6-9b6d-4f2d-b5ed-36f439014c21",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "e8d82a78-6cab-46f7-b830-5aa4a608c25d",
+			"id": "5cb44169-f7aa-4ea3-9d82-4ea0b11225d2",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "7b0c6009-929b-4a50-bd28-53319cc6d927",
+			"id": "5ae3aaca-6c98-4f28-9852-df9886f5a632",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
