@@ -1384,7 +1384,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"vehicle_id\": \"9fc5375d-9ad4-4d74-9d82-7a9f3d5b8871\"\r\n}",
+							"raw": "{\r\n    \"email\":\"\",\r\n    \"profile_image\":\"\",\r\n    \"phone\":\"\",\r\n    \"org_name\":\"\",\r\n    \"location\":\"\"\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1475,17 +1475,17 @@
 	],
 	"variable": [
 		{
-			"id": "86d1143a-f089-4da9-b105-7b23ba29a893",
+			"id": "1cad65bc-beb7-464d-ab23-d3064fbf01a9",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "bdf4125f-5d22-4992-9fd7-d83494449603",
+			"id": "d59c1380-0843-438c-bf2b-d6fa71e4bb8d",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "6ca9de72-afc7-4adf-b8d3-fe719642d88a",
+			"id": "60b06efb-9ee4-40aa-a57f-9719aab8816f",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
