@@ -1366,6 +1366,34 @@
 						"url": "{{Auto}}/autolink/API/boost_car_API"
 					},
 					"response": []
+				},
+				{
+					"name": "Boost Vehicle Copy",
+					"id": "55918343-cc1d-4343-a065-655984d39746",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3ZDY5OTE4Yi1lZGFmLTQ5MGMtYWZkZS1lNjNjNjQ0MDJlYWUiLCJlbWFpbCI6InRvcHJpZGVzbW90b3JzbHRkQGdtYWlsLmNvbSIsIm5hbWUiOiJUb3AgUmlkZXMgTW90b3JzIiwicGhvbmUiOiIrMjU0NzkzNTk0ODY0Iiwib3JnX2lkIjozNCwidXNlcl90eXBlIjoiRGVsZWFyIiwiZXhwIjoxNjcyNDIxMTQ2fQ.OYIQS-VFuTKsAYk3DakAJa--6ZJJU12I5cqtxoijmI0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle_id\": \"9fc5375d-9ad4-4d74-9d82-7a9f3d5b8871\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{Localhost}}/autolink/API/update_profile_API"
+					},
+					"response": []
 				}
 			],
 			"id": "b2412ee2-be93-434b-89ec-2e34d7bd4d5c"
@@ -1447,17 +1475,17 @@
 	],
 	"variable": [
 		{
-			"id": "7d89786d-ea60-4350-85c6-89be0f50855b",
+			"id": "3b17eb2d-5093-4d80-a797-8f8fa4db95d1",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "e96cbf77-c024-4a11-b914-76a9751a8de7",
+			"id": "d94d963d-1612-4c7c-b83a-13fd091dbc37",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "a1f29455-e5ce-4b78-811d-0ed528fbae4a",
+			"id": "46eb0f17-a2c3-47ce-ba24-e08b6c7ee296",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
