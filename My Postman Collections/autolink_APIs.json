@@ -1368,7 +1368,7 @@
 					"response": []
 				},
 				{
-					"name": "Boost Vehicle Copy",
+					"name": "Update Profile",
 					"id": "55918343-cc1d-4343-a065-655984d39746",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -1475,17 +1475,17 @@
 	],
 	"variable": [
 		{
-			"id": "3b17eb2d-5093-4d80-a797-8f8fa4db95d1",
+			"id": "86d1143a-f089-4da9-b105-7b23ba29a893",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "d94d963d-1612-4c7c-b83a-13fd091dbc37",
+			"id": "bdf4125f-5d22-4992-9fd7-d83494449603",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "46eb0f17-a2c3-47ce-ba24-e08b6c7ee296",
+			"id": "6ca9de72-afc7-4adf-b8d3-fe719642d88a",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
