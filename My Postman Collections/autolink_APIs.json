@@ -79,7 +79,7 @@
 								}
 							}
 						},
-						"url": "{{Auto}}/login_API"
+						"url": "{{Localhost}}/login_API"
 					},
 					"response": []
 				},
@@ -1475,17 +1475,17 @@
 	],
 	"variable": [
 		{
-			"id": "dbcaa085-d2c4-4e7f-9042-a28eb20768b7",
+			"id": "0cb36ee7-1126-4ec5-ab34-9a6decf841d2",
 			"key": "Live",
 			"value": "https://autolink2.hermit.co.ke"
 		},
 		{
-			"id": "844ab9da-4ac7-4e1e-a58b-f908f6194fad",
+			"id": "667feeca-fe53-4bfb-a281-ccdb9b91618b",
 			"key": "Localhost",
 			"value": "http://localhost:5000"
 		},
 		{
-			"id": "b4c3a782-674f-4dd4-86a4-fbe1d7ecb7f4",
+			"id": "89f3420c-621d-4022-9cd3-f43d66828544",
 			"key": "Auto",
 			"value": "https://autolink.co.ke"
 		}
